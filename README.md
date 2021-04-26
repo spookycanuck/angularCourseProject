@@ -1,4 +1,6 @@
-# Stonks
+# Stock Sleuth
+
+Front end app (developed in Angular10) for the stock_sleuth app built by Ryan Whittaker
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
 

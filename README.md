@@ -1,6 +1,6 @@
-# Stock Sleuth
+# Angular Course Project
 
-Front end app (developed in Angular10) for the stock_sleuth app built by Ryan Whittaker
+Front end app (developed in Angular10) for the Udemy course on Angular10+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
 

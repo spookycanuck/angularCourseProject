@@ -18,6 +18,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { DropdownDirective } from './shared/dropdown.directive';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { MatListModule } from '@angular/material/list';
     RecipeItemComponent,
     RecipeDetailComponent,
     ShoppingEditComponent,
+    DropdownDirective
   ],
   imports: [
     BrowserModule,

@@ -9,12 +9,12 @@ export class RecipeService {
     recipeSelected = new EventEmitter<Recipe>();
 
     private recipes: Recipe[] = [
-        new Recipe('Test Recipe', 'a test recipe', 'https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2018/12/Shakshuka-19.jpg',
+        new Recipe('A Tasty Schnitzel', 'v good. much wow', 'https://simply-delicious-food.com/wp-content/uploads/2019/09/Chicken-schnitzel-1-500x500.jpg',
         [
             new Ingredient('Meat',1),
             new Ingredient('French Fries',20)
         ]),
-        new Recipe('2 Recipe', 'a test recipe', 'https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2018/12/Shakshuka-19.jpg',
+        new Recipe('A Burger', 'yum. v good too.', 'https://recipe-graphics.grocerywebsite.com/0_GraphicsRecipes/4589_4k.jpg',
         [
             new Ingredient('Buns',2),
             new Ingredient('Meat',1)
@@ -25,6 +25,10 @@ export class RecipeService {
 
     getRecipes() {
         return this.recipes.slice();
+    }
+
+    getRecipe(index: number) {
+      return this.recipes.slice()[index];
     }
 
     addIngredientsToShoppingList(ingredients: Ingredient[]) {
